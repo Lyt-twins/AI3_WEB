@@ -1,0 +1,92 @@
+* { box-sizing: border-box;}
+
+
+.comtainer {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.btn {
+    border: none;
+    padding: 14px 28px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    transition: all 1s;
+}
+.btn.lg {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.success {background-color: darkgrey;}
+.success:hover {box-shadow: 5px 5px 5px rgba(0, 0, 0,0.2);transition: all 0.4s;}
+.success:active {box-shadow 1px 1px 10px rgba(0,0,0,0.2); }
+
+.info {background-color: darkcyan;}
+.info:hover {box-shadow: 5px 5px 5px rgba(0, 0, 0,0.2);transition: all 0.4s;}
+.info:active {box-shadow 1px 1px 10px rgba(0,0,0,0.2); }
+
+.warning {background-color: brown;}
+.warning:hover {box-shadow: 5px 5px 5px rgba(0, 0, 0,0.2);transition: all 0.4s;}
+.warning:active {box-shadow 1px 1px 10px rgba(0,0,0,0.2); }
+
+.danger {background-color: darkolivegreen;}
+.danger:hover {box-shadow: 5px 5px 5px rgba(0, 0, 0,0.2);transition: all 0.4s;}
+.danger:active {box-shadow 1px 1px 10px rgba(0,0,0,0.2); }
+
+.default {background-color: olivedrab;}
+.default:hover {box-shadow: 5px 5px 5px rgba(0, 0, 0,0.2);transition: all 0.4s;}
+.default:active {box-shadow 1px 1px 10px rgba(0,0,0,0.2); }
+
+
+/* 테두리 버튼 */
+.btn.outline.success {
+    background-color: transparent;
+    border: 2px solid darkgray;
+    color: darkgray;
+}
+.btn.outline.success:hover {
+    background-color: darkgray;
+    color: white;
+}
+.btn.outline.info {
+    background-color: transparent;
+    border: 2px solid darkcyan;
+    color: darkcyan;
+}
+.btn.outline.info:hover {
+    background-color: darkcyan;
+    color: white;
+}
+.btn.outline.warning {
+    background-color: transparent;
+    border: 2px solid brown;
+    color: brown;
+}
+.btn.outline.warning:hover {
+    background-color: brown;
+    color: white;
+}
+.btn.outline.danger {
+    background-color: transparent;
+    border: 2px solid darkolivegreen;
+    color: darkolivegreen;
+}
+.btn.outline.danger:hover {
+    background-color: darkolivegreen;
+    color: white;
+}
+.btn.outline.default {
+    background-color: transparent;
+    border: 2px solid olivedrab;
+    color: olivedrab;
+}
+.btn.outline.default:hover {
+    background-color: olivedrab;
+    color: white;
+}
